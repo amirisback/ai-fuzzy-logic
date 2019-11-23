@@ -19,7 +19,7 @@ Implement Fuzzy Logic
 # Result - Screen Shot App
 
 # Link Task
-https://github.com/amirisback/Fuzzy-Logic/blob/master/docs/task/task_3_fuzzy_logic.pdf
+https://github.com/amirisback/Artificial-intelligence-fuzzy-logic/blob/master/docs/task/task_3_fuzzy_logic.pdf
 
 # Link Report
 
