@@ -80,4 +80,8 @@ public class BaseHelper {
         return simpleDateFormat.format(new Date());
     }
 
+    public int stringToInt(String string){
+        return Integer.parseInt(string);
+    }
+
 }
