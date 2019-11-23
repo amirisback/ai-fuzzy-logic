@@ -1,5 +1,5 @@
-# Fuzzy Logic
-Task Artificial Intelligent
+# Artificial-intelligence-fuzzy-logic
+Task Artificial Intelligence
 
 # Author
 Muhammad Faisal Amir  (1301198497)
