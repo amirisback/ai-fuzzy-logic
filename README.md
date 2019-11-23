@@ -11,11 +11,15 @@ Muhammad Faisal Amir  (1301198497)
 
 # About This Project
 Implement Fuzzy Logic
+- Read File
+- Fuzzyfication
+- Inferention
+- De-Fuzzyfication
 
 # Result - Screen Shot App
 
 # Link Task
-
+https://github.com/amirisback/Fuzzy-Logic/blob/master/docs/task/task_3_fuzzy_logic.pdf
 
 # Link Report
 
