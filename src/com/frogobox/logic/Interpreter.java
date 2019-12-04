@@ -5,8 +5,6 @@ import com.frogobox.helper.comparator.FollowerComp;
 import com.frogobox.model.Data;
 import com.frogobox.view.AlgorithmView;
 
-import java.util.Comparator;
-
 /**
  * Created by Faisal Amir
  * FrogoBox Inc License
@@ -23,26 +21,27 @@ import java.util.Comparator;
  * FrogoBox Software Industries
  * com.frogobox.logic
  */
-public class Algorithm {
+public class Interpreter implements AlgorithmView {
 
-    private AlgorithmView algorithmView;
+    private Algorithm algorithm = new Algorithm(this);
 
-    public Algorithm(AlgorithmView algorithmView) {
-        this.algorithmView = algorithmView;
+    public void showSortByComparator() {
+        System.out.println("Original Data");
+        algorithm.setupShowDataOri();
+
+        System.out.println();
+
+        System.out.println("Sort By Follower Count");
+        algorithm.setupSortByComparator(new FollowerComp());
+
+        System.out.println();
+
+        System.out.println("Sort By Engagement Rate");
+        algorithm.setupSortByComparator(new EngagementComp());
     }
 
-    public void setupShowDataOri(){
-        for (Data data : new DataChecker().rawDataArray()) {
-            algorithmView.outputData(data);
-        }
+    @Override
+    public void outputData(Data data) {
+        System.out.println(data.toString());
     }
-
-    public void setupSortByComparator(Comparator<Data> comparator) {
-        for (Data data : new DataChecker().rawDataArraySort(comparator)) {
-            algorithmView.outputData(data);
-        }
-    }
-
-
-
 }
