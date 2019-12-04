@@ -18,7 +18,7 @@ public class Main {
     }
 
     private void setupAlgorithm() {
-        new AlgorithmView().showSortByComparator();
+        new AlgorithmView().runCall();
     }
 
 }

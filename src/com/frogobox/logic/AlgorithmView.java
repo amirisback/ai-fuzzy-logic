@@ -2,7 +2,10 @@ package com.frogobox.logic;
 
 import com.frogobox.helper.comparator.EngagementComp;
 import com.frogobox.helper.comparator.FollowerComp;
+import com.frogobox.helper.comparator.FuzzyEngagementComp;
+import com.frogobox.helper.comparator.FuzzyFollowerComp;
 import com.frogobox.model.Data;
+import com.frogobox.model.DataFuzzy;
 
 import java.util.Comparator;
 
@@ -26,6 +29,13 @@ public class AlgorithmView {
 
     private Algorithm algorithm = new Algorithm();
 
+    public void runCall(){
+        showImportantData();
+        System.out.println();
+        showResultFuzzy();
+
+    }
+
     public void setupShowDataOri(){
         for (Data data : algorithm.rawDataArray()) {
             System.out.println(data.toString());
@@ -35,6 +45,12 @@ public class AlgorithmView {
     public void setupSortByComparator(Comparator<Data> comparator) {
         for (Data data : algorithm.rawDataArraySort(comparator)) {
             System.out.println(data.toString());
+        }
+    }
+
+    public void setupResultFuzzySort(Comparator<DataFuzzy> comparator) {
+        for (DataFuzzy dataFuzzy : algorithm.arrayDataFuzzyLogic(comparator)) {
+            System.out.println(dataFuzzy.toString());
         }
     }
 
@@ -65,10 +81,16 @@ public class AlgorithmView {
 
         System.out.println("Sort By Engagement Rate");
         setupSortByComparator(new EngagementComp());
+    }
+
+    public void showResultFuzzy(){
+        System.out.println("FOLLOWER");
+        setupResultFuzzySort(new FuzzyFollowerComp());
 
         System.out.println();
 
-        showImportantData();
+        System.out.println("ENGAGEMENT");
+        setupResultFuzzySort(new FuzzyEngagementComp());
     }
 
 

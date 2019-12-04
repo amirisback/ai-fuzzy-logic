@@ -41,18 +41,12 @@ public class BaseHelper {
     // -----------------------------------------------------------------------------------------------------------------
     public static final String LINE_VIEW = "--------------------------------------------";
     // -----------------------------------------------------------------------------------------------------------------
-    // Setting
-    public static final int SUM_POPULATION = 5;
-    public static final int SUM_GEN = 5;
-    public static final int SUM_CHROMOSOME = 2;
-    // -----------------------------------------------------------------------------------------------------------------
-    public static final int RANDOM_RANGE = 4;
-    public static final int RANDOM_RANGE_MIN = -2;
-    public static final int RANDOM_RANGE_MAX = 2;
-    // -----------------------------------------------------------------------------------------------------------------
-    public static final double X_MAX = SUM_GEN * (RANDOM_RANGE_MAX - 1);
-    public static final double X_MIN = SUM_GEN * (RANDOM_RANGE_MIN + 1);
-    // -----------------------------------------------------------------------------------------------------------------
+    public static final String FUZZY_ACCEPT = "ACCEPT";
+    public static final String FUZZY_ACCEPTABLE = "ACCEPTABLE";
+    public static final String FUZZY_REJECT = "REJECT";
+
+    public static final int SUM_CHOSEN_INFLUENCERS = 20;
+
 
     public String getPathOutputFolder(String fileName) {
         return PATH_OUTPUT_DATA + "/" + fileName + PATH_FILE_TIME;

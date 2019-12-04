@@ -3,12 +3,14 @@ package com.frogobox.logic;
 import com.frogobox.helper.RawDataHelper;
 import com.frogobox.helper.comparator.EngagementComp;
 import com.frogobox.helper.comparator.FollowerComp;
+import com.frogobox.helper.comparator.FuzzyFollowerComp;
 import com.frogobox.model.Data;
+import com.frogobox.model.DataFuzzy;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import static com.frogobox.base.BaseHelper.PATH_RAW_CSV_DATA;
+import static com.frogobox.base.BaseHelper.*;
 
 /**
  * Created by Faisal Amir
@@ -88,6 +90,62 @@ public class Algorithm {
             temp = temp + rawDataArray().get(i).getEngagementRate();
         }
         return temp / rawDataArray().size();
+    }
+
+    public boolean checkAcceptableFollower(int followerCount){
+        return followerCount > getAverageFollower();
+    }
+
+    public boolean checkAcceptableEngagementCount(double engagementRate){
+        return engagementRate > getAverageEngagement();
+    }
+
+    public boolean checkAcceptInfluencer(int followerCount, double engagementRate){
+        return checkAcceptableFollower(followerCount) && checkAcceptableEngagementCount(engagementRate);
+    }
+
+    public boolean checkAcceptableInfluencer(int followerCount, double engagementRate){
+        return checkAcceptableFollower(followerCount) || checkAcceptableEngagementCount(engagementRate);
+    }
+
+    public boolean checkSumChosenInfluencer(ArrayList<DataFuzzy> dataFuzzyArrayList){
+        return dataFuzzyArrayList.size() == SUM_CHOSEN_INFLUENCERS;
+    }
+
+    public int loopGetAcceptableInfluencer(ArrayList<DataFuzzy> dataFuzzyArrayList){
+        return SUM_CHOSEN_INFLUENCERS - dataFuzzyArrayList.size();
+    }
+
+    public ArrayList<DataFuzzy> arrayDataFuzzyLogic(Comparator<DataFuzzy> comparator){
+        ArrayList<DataFuzzy> tempArrayList = new ArrayList<>();
+        ArrayList<DataFuzzy> chosenArrayList = new ArrayList<>();
+
+        String state = "";
+        for (Data data : rawDataArray()) {
+            if (checkAcceptInfluencer(data.getFollowerCount(), data.getEngagementRate())) {
+                state = FUZZY_ACCEPT;
+                DataFuzzy dataFuzzy = new DataFuzzy(data.getId(), data.getFollowerCount(), data.getEngagementRate(), state);
+                chosenArrayList.add(dataFuzzy);
+            } else {
+                if (checkAcceptableInfluencer(data.getFollowerCount(), data.getEngagementRate())) {
+                    state = FUZZY_ACCEPTABLE;
+                } else {
+                    state = FUZZY_REJECT;
+                }
+                DataFuzzy dataFuzzy = new DataFuzzy(data.getId(), data.getFollowerCount(), data.getEngagementRate(), state);
+                tempArrayList.add(dataFuzzy);
+            }
+        }
+
+        tempArrayList.sort(comparator);
+        int loop = loopGetAcceptableInfluencer(chosenArrayList);
+        for (int i = 0; i < loop ; i++) {
+            chosenArrayList.add(tempArrayList.get(i));
+        }
+
+        chosenArrayList.sort(comparator);
+
+        return chosenArrayList;
     }
 
 }
