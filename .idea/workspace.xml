@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c70a79-0385-40ba-9590-ae716367dec7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,11 +205,17 @@
       <option name="project" value="LOCAL" />
       <updated>1575457258340</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update: README.md">
+      <created>1575457639105</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575457639105</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update: README.md" />
     <MESSAGE value="create: Data Model" />
     <MESSAGE value="create: BaseHelper" />
     <MESSAGE value="create: RawDataHelper" />
@@ -224,7 +230,8 @@
     <MESSAGE value="Temporary Finish Code Logic" />
     <MESSAGE value="update: .gitignore" />
     <MESSAGE value="add: Comment Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: Comment Code" />
+    <MESSAGE value="update: README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1575451523605">
@@ -235,14 +242,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1575448305060" />
-    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575457257055">
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575457717431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575457257055" />
-    <state x="129" y="54" key="DiffContextDialog" timestamp="1575457252799">
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575457717431" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1575457684300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575457252799" />
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575457684300" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1575455512114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -267,10 +274,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575435127816" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575457260077">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575457698264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575457260077" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575457698264" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575434827446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
