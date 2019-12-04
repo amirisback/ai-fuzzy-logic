@@ -73,6 +73,7 @@ public class AlgorithmView {
     }
 
     public void showImportantData(){
+        // jumlah linguistik, bentuk fungsi keanggotaan, rule inferensi,
         System.out.println("Highest Follower Count  : " + algorithm.getHighestFollower());
         System.out.println("Highest Engagement Rate : " + algorithm.getHighestEngagement());
 

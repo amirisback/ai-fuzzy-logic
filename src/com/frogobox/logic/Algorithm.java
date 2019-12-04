@@ -139,6 +139,8 @@ public class Algorithm {
 
         tempArrayList.sort(comparator);
         int loop = loopGetAcceptableInfluencer(chosenArrayList);
+
+        // Defuzzyfication
         for (int i = 0; i < loop ; i++) {
             chosenArrayList.add(tempArrayList.get(i));
         }
