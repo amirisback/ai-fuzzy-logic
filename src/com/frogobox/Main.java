@@ -1,14 +1,8 @@
 package com.frogobox;
 
-import com.frogobox.helper.RawDataHelper;
-import com.frogobox.helper.SortHelper;
-import com.frogobox.model.Data;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-
-import static com.frogobox.base.BaseHelper.PATH_RAW_CSV_DATA;
+import com.frogobox.helper.comparator.EngagementComp;
+import com.frogobox.helper.comparator.FollowerComp;
+import com.frogobox.logic.Algorithm;
 
 public class Main {
 
@@ -19,24 +13,17 @@ public class Main {
 
     private void onCreate(){
         setupIntroView();
-        setupGetRawData();
+        setupAlgorithm();
     }
 
     private void setupIntroView(){
 
     }
 
-    private void setupGetRawData(){
-        ArrayList<Data> rawDataArray = new RawDataHelper().fetchData(PATH_RAW_CSV_DATA);
-//        for (Data data : rawDataArray) {
-//            System.out.println(data.toString());
-//        }
-
-        Collections.sort(rawDataArray, new SortHelper());
-        for (Data data : rawDataArray) {
-            System.out.println(data.toString());
-        }
-
+    private void setupAlgorithm(){
+        new Algorithm().showSortByComparator();
     }
+
+
 
 }

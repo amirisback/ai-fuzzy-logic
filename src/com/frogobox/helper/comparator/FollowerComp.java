@@ -1,10 +1,8 @@
-package com.frogobox.helper;
+package com.frogobox.helper.comparator;
 
 import com.frogobox.model.Data;
 
 import java.util.Comparator;
-
-import static com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary.stringToInt;
 
 /**
  * Created by Faisal Amir
@@ -22,7 +20,7 @@ import static com.sun.org.apache.xalan.internal.xsltc.runtime.BasisLibrary.strin
  * FrogoBox Software Industries
  * com.frogobox.helper
  */
-public class SortHelper implements Comparator<Data> {
+public class FollowerComp implements Comparator<Data> {
 
     @Override
     public int compare(Data dataA, Data dataB) {

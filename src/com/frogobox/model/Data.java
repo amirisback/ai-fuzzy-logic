@@ -53,10 +53,6 @@ public class Data {
 
     @Override
     public String toString() {
-        return "Data{" +
-                "id='" + id + '\'' +
-                ", followerCount=" + followerCount +
-                ", engagementRate=" + engagementRate +
-                '}';
+        return "Data{id = " + id + ",\t followerCount = " + followerCount + ",\t engagementRate = " + engagementRate + "}";
     }
 }
