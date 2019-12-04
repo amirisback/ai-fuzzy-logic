@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20c70a79-0385-40ba-9590-ae716367dec7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/frogobox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frogobox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/frogobox/logic/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frogobox/logic/Algorithm.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UVFLCJjHmHjbcpOubhLETGOOju" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="D:/android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Artificial-intelligence-genetic-algorithm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PROJECT\PROJECT_JAVA\Artificial-intelligence-fuzzy-logic\src\com\frogobox" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frogobox.Main" />
+      <module name="Artificial-intelligence-fuzzy-logic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frogobox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20c70a79-0385-40ba-9590-ae716367dec7" name="Default Changelist" comment="" />
+      <created>1574483164976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574483164976</updated>
+    </task>
+    <task id="LOCAL-00001" summary="update: README.md">
+      <created>1574483326866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574483326866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create: Data Model">
+      <created>1574484075780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484075780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create: BaseHelper">
+      <created>1574484094634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484094634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create: RawDataHelper">
+      <created>1574484114864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484114864</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create: architecture MainView">
+      <created>1574484137444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574484137444</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add: Sort descending by FollowerCount">
+      <created>1574485719069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574485719069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update: Type Data Model">
+      <created>1575438362555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575438362555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update: .gitignore">
+      <created>1575438377026</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575438377026</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update: Sort By Follower and Engagement">
+      <created>1575439864763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575439864763</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add: high and lowest data">
+      <created>1575446981834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575446981834</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add: Architecture Logic">
+      <created>1575448156717</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575448156717</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add: Average Logic">
+      <created>1575449131065</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575449131065</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add: Fuzzy Logic">
+      <created>1575454758907</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575454758907</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update: .gitignore">
+      <created>1575456782138</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575456782138</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Temporary Finish Code Logic">
+      <created>1575456818803</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575456818804</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update: README.md" />
+    <MESSAGE value="create: Data Model" />
+    <MESSAGE value="create: BaseHelper" />
+    <MESSAGE value="create: RawDataHelper" />
+    <MESSAGE value="create: architecture MainView" />
+    <MESSAGE value="add: Sort descending by FollowerCount" />
+    <MESSAGE value="update: Type Data Model" />
+    <MESSAGE value="update: Sort By Follower and Engagement" />
+    <MESSAGE value="add: high and lowest data" />
+    <MESSAGE value="add: Architecture Logic" />
+    <MESSAGE value="add: Average Logic" />
+    <MESSAGE value="add: Fuzzy Logic" />
+    <MESSAGE value="update: .gitignore" />
+    <MESSAGE value="Temporary Finish Code Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Temporary Finish Code Logic" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1575451523605">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575451523605" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575448305060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1575448305060" />
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575456817383">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575456817383" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1575438321567">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575438321567" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1575455512114">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575455512114" />
+    <state width="1323" height="463" key="GridCell.Tab.0.bottom" timestamp="1575457057570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="463" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
+    <state width="1323" height="463" key="GridCell.Tab.0.center" timestamp="1575457057570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="463" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
+    <state width="1323" height="463" key="GridCell.Tab.0.left" timestamp="1575457057570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="463" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
+    <state width="1323" height="463" key="GridCell.Tab.0.right" timestamp="1575457057570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="463" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1575435127816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575435127816" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575454760193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575454760193" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575434827446">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575434827446" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1575439223229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575439223229" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_161</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
