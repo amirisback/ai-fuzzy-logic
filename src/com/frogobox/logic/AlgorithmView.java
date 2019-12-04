@@ -7,7 +7,11 @@ import com.frogobox.helper.comparator.FuzzyFollowerComp;
 import com.frogobox.model.Data;
 import com.frogobox.model.DataFuzzy;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.util.Comparator;
+
+import static com.frogobox.base.BaseHelper.LINE_VIEW;
 
 /**
  * Created by Faisal Amir
@@ -29,13 +33,6 @@ public class AlgorithmView {
 
     private Algorithm algorithm = new Algorithm();
 
-    public void runCall(){
-        showImportantData();
-        System.out.println();
-        showResultFuzzy();
-
-    }
-
     public void setupShowDataOri(){
         for (Data data : algorithm.rawDataArray()) {
             System.out.println(data.toString());
@@ -45,6 +42,27 @@ public class AlgorithmView {
     public void setupSortByComparator(Comparator<Data> comparator) {
         for (Data data : algorithm.rawDataArraySort(comparator)) {
             System.out.println(data.toString());
+        }
+    }
+
+    public void setupWriteFuzzySortCsv(Comparator<DataFuzzy> comparator, BufferedWriter bufferedWriter) {
+        for (DataFuzzy dataFuzzy : algorithm.arrayDataFuzzyLogic(comparator)) {
+            try {
+                String output = dataFuzzy.getId() + "," + dataFuzzy.getFollowerCount() + "," + dataFuzzy.getFollowerCount() + "," + dataFuzzy.getEngagementRate() + "," + dataFuzzy.getFuzzyOutput();
+                bufferedWriter.write(output);bufferedWriter.newLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public void setupWriteFuzzySortTxt(Comparator<DataFuzzy> comparator, BufferedWriter bufferedWriter) {
+        for (DataFuzzy dataFuzzy : algorithm.arrayDataFuzzyLogic(comparator)) {
+            try {
+                bufferedWriter.write(dataFuzzy.toString());bufferedWriter.newLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -66,6 +84,15 @@ public class AlgorithmView {
 
         System.out.println("Average Follower Count  : " + algorithm.getAverageFollower());
         System.out.println("Average Engagement Rate : " + algorithm.getAverageEngagement());
+
+        System.out.println(LINE_VIEW);
+
+        System.out.println("ACCEPT     : (Follower > AverageFollower) && (EngagementRate > AverageEngagementRate)");
+        System.out.println("ACCEPTABLE : (Follower > AverageFollower) || (EngagementRate > AverageEngagementRate)");
+        System.out.println("REJECT     : Which is not the result of both");
+
+        System.out.println();
+
     }
 
     public void showSortByComparator() {
@@ -81,15 +108,20 @@ public class AlgorithmView {
 
         System.out.println("Sort By Engagement Rate");
         setupSortByComparator(new EngagementComp());
+
+        System.out.println();
+
     }
 
     public void showResultFuzzy(){
-        System.out.println("FOLLOWER");
+        System.out.println("Priority By Follower");
+        System.out.println(LINE_VIEW);
         setupResultFuzzySort(new FuzzyFollowerComp());
 
         System.out.println();
 
-        System.out.println("ENGAGEMENT");
+        System.out.println("Priority By Engagement Rate");
+        System.out.println(LINE_VIEW);
         setupResultFuzzySort(new FuzzyEngagementComp());
     }
 

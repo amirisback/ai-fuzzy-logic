@@ -27,12 +27,14 @@ public class BaseHelper {
 
     // -----------------------------------------------------------------------------------------------------------------
     // Path Raw
-    public static final String FILENAME = "Chosen-Fuzzy-Logic";
+    public static final String FILENAME_ENGAGEMENT = "chosen_engagement_rate_priority";
+    public static final String FILENAME_FOLLOWER = "chosen_follower_priority";
     public static final String EXTENSION_TXT = ".txt";
     public static final String EXTENSION_CSV = ".csv";
     public static final String PATH_OUTPUT_DATA = "result";
     public static final String PATH_ROOT_PROJECT = "Folder Output : [root_project]/";
-    public String PATH_FILE_TIME = "#" + getDateNow() + EXTENSION_TXT;
+    public String PATH_FILE_TIME_CSV = "#" + getDateNow() + EXTENSION_CSV;
+    public String PATH_FILE_TIME_TXT = "#" + getDateNow() + EXTENSION_TXT;
     // -----------------------------------------------------------------------------------------------------------------
     // Path Raw Data
     public static final String BASE_PATH_RAW = "src/com/frogobox/raw";
@@ -48,8 +50,12 @@ public class BaseHelper {
     public static final int SUM_CHOSEN_INFLUENCERS = 20;
 
 
-    public String getPathOutputFolder(String fileName) {
-        return PATH_OUTPUT_DATA + "/" + fileName + PATH_FILE_TIME;
+    public String getPathOutputFolderCsv(String fileName) {
+        return PATH_OUTPUT_DATA + "/" + fileName + PATH_FILE_TIME_CSV;
+    }
+
+    public String getPathOutputFolderTxt(String fileName) {
+        return PATH_OUTPUT_DATA + "/" + fileName + PATH_FILE_TIME_TXT;
     }
 
     public static int randomNumber(int range) {
