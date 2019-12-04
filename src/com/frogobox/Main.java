@@ -1,6 +1,6 @@
 package com.frogobox;
 
-import com.frogobox.logic.Interpreter;
+import com.frogobox.logic.AlgorithmView;
 
 public class Main {
 
@@ -18,7 +18,7 @@ public class Main {
     }
 
     private void setupAlgorithm() {
-        new Interpreter().showSortByComparator();
+        new AlgorithmView().showSortByComparator();
     }
 
 }
