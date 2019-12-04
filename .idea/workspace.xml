@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c70a79-0385-40ba-9590-ae716367dec7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/frogobox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frogobox/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/frogobox/logic/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frogobox/logic/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Artificial-intelligence-genetic-algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/image" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -192,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575456818804</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update: .gitignore">
+      <created>1575457214114</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575457214114</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add: Comment Code">
+      <created>1575457258340</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575457258340</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,9 +221,10 @@
     <MESSAGE value="add: Architecture Logic" />
     <MESSAGE value="add: Average Logic" />
     <MESSAGE value="add: Fuzzy Logic" />
-    <MESSAGE value="update: .gitignore" />
     <MESSAGE value="Temporary Finish Code Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temporary Finish Code Logic" />
+    <MESSAGE value="update: .gitignore" />
+    <MESSAGE value="add: Comment Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: Comment Code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1575451523605">
@@ -221,42 +235,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1575448305060" />
-    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575457213041">
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575457257055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575457213041" />
-    <state x="129" y="54" key="DiffContextDialog" timestamp="1575438321567">
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575457257055" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1575457252799">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575438321567" />
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575457252799" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1575455512114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575455512114" />
-    <state width="1323" height="463" key="GridCell.Tab.0.bottom" timestamp="1575457057570">
+    <state width="1323" height="570" key="GridCell.Tab.0.bottom" timestamp="1575457560772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="463" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
-    <state width="1323" height="463" key="GridCell.Tab.0.center" timestamp="1575457057570">
+    <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575457560772" />
+    <state width="1323" height="570" key="GridCell.Tab.0.center" timestamp="1575457560772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="463" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
-    <state width="1323" height="463" key="GridCell.Tab.0.left" timestamp="1575457057570">
+    <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575457560772" />
+    <state width="1323" height="570" key="GridCell.Tab.0.left" timestamp="1575457560772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="463" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
-    <state width="1323" height="463" key="GridCell.Tab.0.right" timestamp="1575457057570">
+    <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575457560772" />
+    <state width="1323" height="570" key="GridCell.Tab.0.right" timestamp="1575457560772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="463" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575457057570" />
+    <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575457560772" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1575435127816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575435127816" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575457216289">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575457260077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575457216289" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575457260077" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575434827446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -17,6 +17,7 @@ Implement Fuzzy Logic
 - De-Fuzzyfication
 
 # Result - Screen Shot App
+![ScreenShoot Apps](docs/image/ss_main.png?raw=true)
 
 # Link Task
 https://github.com/amirisback/Artificial-intelligence-fuzzy-logic/blob/master/docs/task/task_3_fuzzy_logic.pdf
