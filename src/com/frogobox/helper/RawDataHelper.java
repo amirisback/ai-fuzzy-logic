@@ -50,7 +50,7 @@ public class RawDataHelper {
                 String[] splitString = column.split(",");
                 ArrayList<String> partTemp = new ArrayList<>();
                 Collections.addAll(partTemp, splitString);
-                Data mData = new Data(partTemp.get(0), partTemp.get(1), partTemp.get(2));
+                Data mData = new Data(partTemp.get(0), Integer.parseInt(partTemp.get(1)), Double.parseDouble(partTemp.get(2)));
                 dataArrayList.add(mData);
             }
             reader.close();

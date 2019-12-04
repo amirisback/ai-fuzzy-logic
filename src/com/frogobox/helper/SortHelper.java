@@ -26,7 +26,7 @@ public class SortHelper implements Comparator<Data> {
 
     @Override
     public int compare(Data dataA, Data dataB) {
-        return stringToInt(dataB.getFollowerCount()) - stringToInt(dataA.getFollowerCount());
+        return dataB.getFollowerCount() - dataA.getFollowerCount();
     }
-    
+
 }

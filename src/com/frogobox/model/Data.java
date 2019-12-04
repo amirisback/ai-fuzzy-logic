@@ -18,10 +18,10 @@ package com.frogobox.model;
  */
 public class Data {
     private String id;
-    private String followerCount;
-    private String engagementRate;
+    private int followerCount;
+    private double engagementRate;
 
-    public Data(String id, String followerCount, String engagementRate) {
+    public Data(String id, int followerCount, double engagementRate) {
         this.id = id;
         this.followerCount = followerCount;
         this.engagementRate = engagementRate;
@@ -35,19 +35,19 @@ public class Data {
         this.id = id;
     }
 
-    public String getFollowerCount() {
+    public int getFollowerCount() {
         return followerCount;
     }
 
-    public void setFollowerCount(String followerCount) {
+    public void setFollowerCount(int followerCount) {
         this.followerCount = followerCount;
     }
 
-    public String getEngagementRate() {
+    public double getEngagementRate() {
         return engagementRate;
     }
 
-    public void setEngagementRate(String engagementRate) {
+    public void setEngagementRate(double engagementRate) {
         this.engagementRate = engagementRate;
     }
 
@@ -55,8 +55,8 @@ public class Data {
     public String toString() {
         return "Data{" +
                 "id='" + id + '\'' +
-                ", followerCount='" + followerCount + '\'' +
-                ", engagementRate='" + engagementRate + '\'' +
+                ", followerCount=" + followerCount +
+                ", engagementRate=" + engagementRate +
                 '}';
     }
 }
