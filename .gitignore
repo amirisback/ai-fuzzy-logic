@@ -1,7 +1,8 @@
 # Default ignored files
 .idea
 
+out
+result
+
 *.iml
 *.class
-
-out
