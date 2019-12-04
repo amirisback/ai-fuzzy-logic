@@ -6,7 +6,6 @@ import com.frogobox.helper.comparator.FollowerComp;
 import com.frogobox.model.Data;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 import static com.frogobox.base.BaseHelper.PATH_RAW_CSV_DATA;
@@ -29,15 +28,35 @@ import static com.frogobox.base.BaseHelper.PATH_RAW_CSV_DATA;
  */
 public class Algorithm {
 
-    public void setupSortByComparator(Comparator comparator){
-        ArrayList<Data> rawDataArray = new RawDataHelper().fetchData(PATH_RAW_CSV_DATA);
-        Collections.sort(rawDataArray, comparator);
-        for (Data data : rawDataArray) {
+    private ArrayList<Data> rawDataArray(Comparator<Data> comparator) {
+        ArrayList<Data> dataArrayList = new RawDataHelper().fetchData(PATH_RAW_CSV_DATA);
+        dataArrayList.sort(comparator);
+        return dataArrayList;
+    }
+
+    public int getHighestFollower() {
+        return rawDataArray(new FollowerComp()).get(0).getFollowerCount();
+    }
+
+    public int getLowestFollower() {
+        return rawDataArray(new FollowerComp()).get(rawDataArray(new FollowerComp()).size() - 1).getFollowerCount();
+    }
+
+    public double getHighestEngagement(){
+        return rawDataArray(new EngagementComp()).get(0).getEngagementRate();
+    }
+
+    public double getLowestEngagement(){
+        return rawDataArray(new EngagementComp()).get(rawDataArray(new EngagementComp()).size() - 1).getEngagementRate();
+    }
+
+    public void setupSortByComparator(Comparator<Data> comparator) {
+        for (Data data : rawDataArray(comparator)) {
             System.out.println(data.toString());
         }
     }
 
-    public void showSortByComparator(){
+    public void showSortByComparator() {
         System.out.println("Sort By Follower Count");
         setupSortByComparator(new FollowerComp());
         System.out.println();
