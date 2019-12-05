@@ -1,5 +1,7 @@
 package com.frogobox.model;
 
+import static com.frogobox.base.BaseHelper.*;
+
 /**
  * Created by Faisal Amir
  * FrogoBox Inc License
@@ -20,9 +22,9 @@ public class DataFuzzy {
     private String id;
     private int followerCount;
     private double engagementRate;
-    private String fuzzyOutput;
+    private int fuzzyOutput;
 
-    public DataFuzzy(String id, int followerCount, double engagementRate, String fuzzyOutput) {
+    public DataFuzzy(String id, int followerCount, double engagementRate, int fuzzyOutput) {
         this.id = id;
         this.followerCount = followerCount;
         this.engagementRate = engagementRate;
@@ -53,16 +55,26 @@ public class DataFuzzy {
         this.engagementRate = engagementRate;
     }
 
-    public String getFuzzyOutput() {
+    public int getFuzzyOutput() {
         return fuzzyOutput;
     }
 
-    public void setFuzzyOutput(String fuzzyOutput) {
+    public void setFuzzyOutput(int fuzzyOutput) {
         this.fuzzyOutput = fuzzyOutput;
     }
 
     @Override
     public String toString() {
-        return "Data{id = " + id + ",\t followerCount = " + followerCount + ",\t engagementRate = " + engagementRate + ",\t fuzzyOutput = " + fuzzyOutput + "}";
+
+        String state ="";
+        if (fuzzyOutput == 2) {
+            state = FUZZY_ACCEPT;
+        } else if (fuzzyOutput ==1 ) {
+            state = FUZZY_ACCEPTABLE;
+        } else {
+            state = FUZZY_REJECT;
+        }
+
+        return "Data{id = " + id + ",\t followerCount = " + followerCount + ",\t engagementRate = " + engagementRate + ",\t fuzzyOutput = " + state + "}";
     }
 }

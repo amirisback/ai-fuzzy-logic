@@ -1,8 +1,7 @@
 package com.frogobox;
 
 import com.frogobox.helper.FileCrudHelper;
-import com.frogobox.helper.comparator.FuzzyEngagementComp;
-import com.frogobox.helper.comparator.FuzzyFollowerComp;
+import com.frogobox.helper.comparator.FuzzyComp;
 import com.frogobox.logic.AlgorithmView;
 
 import static com.frogobox.base.BaseHelper.*;
@@ -50,10 +49,7 @@ public class Main {
 
     private void setupCreateFileOutput(){
         new FileCrudHelper().createFolderOutPut();
-        new FileCrudHelper().createFileCsv(FILENAME_FOLLOWER, new FuzzyFollowerComp());
-        new FileCrudHelper().createFileCsv(FILENAME_ENGAGEMENT, new FuzzyEngagementComp());
-        new FileCrudHelper().createFileTxt(FILENAME_FOLLOWER, new FuzzyFollowerComp());
-        new FileCrudHelper().createFileTxt(FILENAME_ENGAGEMENT, new FuzzyEngagementComp());
+        new FileCrudHelper().createFileCsv(FILENAME, new FuzzyComp());
     }
 
 }

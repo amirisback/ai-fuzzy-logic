@@ -27,8 +27,7 @@ public class BaseHelper {
 
     // -----------------------------------------------------------------------------------------------------------------
     // Path Raw
-    public static final String FILENAME_ENGAGEMENT = "chosen_engagement_rate_priority";
-    public static final String FILENAME_FOLLOWER = "chosen_follower_priority";
+    public static final String FILENAME = "chosen_influencer";
     public static final String EXTENSION_TXT = ".txt";
     public static final String EXTENSION_CSV = ".csv";
     public static final String PATH_OUTPUT_DATA = "result";
@@ -47,8 +46,10 @@ public class BaseHelper {
     public static final String FUZZY_ACCEPTABLE = "ACCEPTABLE";
     public static final String FUZZY_REJECT = "REJECT";
 
-    public static final int SUM_CHOSEN_INFLUENCERS = 20;
+    public static final String PARAM_FOLLOWER = "follower";
+    public static final String PARAM_ENGAGEMENT = "engagement";
 
+    public static final int SUM_CHOSEN_INFLUENCERS = 20;
 
     public String getPathOutputFolderCsv(String fileName) {
         return PATH_OUTPUT_DATA + "/" + fileName + PATH_FILE_TIME_CSV;

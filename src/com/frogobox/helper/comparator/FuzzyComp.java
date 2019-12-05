@@ -21,11 +21,17 @@ import java.util.Comparator;
  * FrogoBox Software Industries
  * com.frogobox.helper.comparator
  */
-public class FuzzyFollowerComp implements Comparator<DataFuzzy> {
+public class FuzzyComp implements Comparator<DataFuzzy> {
 
     @Override
     public int compare(DataFuzzy dataA, DataFuzzy dataB) {
-        return dataB.getFollowerCount() - dataA.getFollowerCount();
+        if ((dataA.getFuzzyOutput() == 2) && (dataB.getFuzzyOutput() == 2)) {
+            return dataB.getFollowerCount() - dataA.getFollowerCount();
+        } else if ((dataA.getFuzzyOutput() == 1) && (dataB.getFuzzyOutput() == 1)){
+            return dataB.getFollowerCount() - dataA.getFollowerCount();
+        } else {
+            return dataB.getFuzzyOutput() - dataA.getFuzzyOutput();
+        }
     }
 
 }

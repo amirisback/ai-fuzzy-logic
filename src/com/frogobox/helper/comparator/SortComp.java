@@ -4,6 +4,8 @@ import com.frogobox.model.Data;
 
 import java.util.Comparator;
 
+import static com.frogobox.base.BaseHelper.PARAM_FOLLOWER;
+
 /**
  * Created by Faisal Amir
  * FrogoBox Inc License
@@ -20,11 +22,29 @@ import java.util.Comparator;
  * FrogoBox Software Industries
  * com.frogobox.helper
  */
-public class FollowerComp implements Comparator<Data> {
+public class SortComp implements Comparator<Data> {
+
+    private String param;
+
+    public SortComp(String param) {
+        this.param = param;
+    }
+
+    public String getParam() {
+        return param;
+    }
+
+    public void setParam(String param) {
+        this.param = param;
+    }
 
     @Override
     public int compare(Data dataA, Data dataB) {
-        return dataB.getFollowerCount() - dataA.getFollowerCount();
+        if (param.equalsIgnoreCase(PARAM_FOLLOWER)) {
+            return dataB.getFollowerCount() - dataA.getFollowerCount();
+        } else {
+            return (int) dataB.getEngagementRate() - (int) dataA.getEngagementRate();
+        }
     }
 
 }
