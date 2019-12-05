@@ -70,8 +70,15 @@ public class AlgorithmView {
 
     public void setupResultFuzzySort(Comparator<DataFuzzy> comparator) {
         ArrayList<DataFuzzy> fuzzyArrayList = algorithm.arrayDataFuzzyLogic(comparator);
-        for (int i = 0; i < 20; i++) {
-            System.out.println(fuzzyArrayList.get(i).toString());
+        for (int i = 0; i < fuzzyArrayList.size(); i++) {
+            if (i == 20) {
+                System.out.println("\nWhich was not selected");
+                System.out.println(LINE_VIEW);
+                System.out.println(fuzzyArrayList.get(i).toString());
+            } else {
+                System.out.println(fuzzyArrayList.get(i).toString());
+            }
+
         }
     }
 
@@ -110,7 +117,7 @@ public class AlgorithmView {
     }
 
     public void showResultFuzzy() {
-        System.out.println("Fuzzy Output");
+        System.out.println("Fuzzy Output (Chosen Influencers)");
         System.out.println(LINE_VIEW);
         setupResultFuzzySort(new FuzzyComp());
     }
