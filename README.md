@@ -23,7 +23,7 @@ Implement Fuzzy Logic
 https://github.com/amirisback/Artificial-intelligence-fuzzy-logic/blob/master/docs/task/task_3_fuzzy_logic.pdf
 
 # Link Report
-
+https://github.com/amirisback/Artificial-intelligence-fuzzy-logic/blob/master/docs/report/report_3_fuzzy_logic.pdf
 
 # Attention !!!
 Please enjoy and don't forget fork and give a star

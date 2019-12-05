@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20c70a79-0385-40ba-9590-ae716367dec7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/frogobox/logic/AlgorithmView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frogobox/logic/AlgorithmView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="D:/android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/report" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575520513620</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update: README.md">
+      <created>1575521283596</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575521283596</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,10 +259,10 @@
     <MESSAGE value="add: Fuzzy Logic" />
     <MESSAGE value="Temporary Finish Code Logic" />
     <MESSAGE value="add: Comment Code" />
-    <MESSAGE value="update: README.md" />
     <MESSAGE value="update: .gitignore" />
     <MESSAGE value="update: FuzzyLogic" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: FuzzyLogic" />
+    <MESSAGE value="update: README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser" timestamp="1575520157731">
@@ -267,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1575520235496" />
-    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575521263739">
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1575521281888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575521263739" />
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575521281888" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1575457684300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -279,34 +285,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575516510427" />
-    <state width="1323" height="568" key="GridCell.Tab.0.bottom" timestamp="1575521120564">
+    <state width="1323" height="568" key="GridCell.Tab.0.bottom" timestamp="1575522973545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="568" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575521120564" />
-    <state width="1323" height="568" key="GridCell.Tab.0.center" timestamp="1575521120564">
+    <state width="1323" height="568" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575522973545" />
+    <state width="1323" height="568" key="GridCell.Tab.0.center" timestamp="1575522973545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="568" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575521120564" />
-    <state width="1323" height="568" key="GridCell.Tab.0.left" timestamp="1575521120564">
+    <state width="1323" height="568" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575522973545" />
+    <state width="1323" height="568" key="GridCell.Tab.0.left" timestamp="1575522973544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="568" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575521120564" />
-    <state width="1323" height="568" key="GridCell.Tab.0.right" timestamp="1575521120564">
+    <state width="1323" height="568" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575522973544" />
+    <state width="1323" height="568" key="GridCell.Tab.0.right" timestamp="1575522973545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="568" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575521120564" />
+    <state width="1323" height="568" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575522973545" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1575435127816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575435127816" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575520515658">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1575521291692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575520515658" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575516400034">
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575521291692" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1575523274886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575516400034" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575523274886" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1575439223229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
